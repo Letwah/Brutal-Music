@@ -1,5 +1,11 @@
-function App() {
-  return <></>;
-}
+import Nav from "../Nav";
 
-export default App;
+const Login = () => {
+  return (
+    <>
+      <Nav></Nav>
+    </>
+  );
+};
+
+export default Login;

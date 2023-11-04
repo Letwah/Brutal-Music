@@ -1,5 +1,9 @@
-function App() {
-  return <></>;
-}
+const TrackInfo = () => {
+  return (
+    <>
+      <h1>Hello Authenticated User</h1>
+    </>
+  );
+};
 
-export default App;
+export default TrackInfo;

@@ -1,5 +1,10 @@
-function App() {
-  return <></>;
-}
+const Nav = () => {
+  return (
+    <>
+      <h1> Brutalist Music</h1>
+      <button>Login</button>
+    </>
+  );
+};
 
-export default App;
+export default Nav;
