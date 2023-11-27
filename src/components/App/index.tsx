@@ -17,6 +17,8 @@ const App = () => {
     }
   }, []);
 
+  console.log(token);
+
   const getToken = async () => {
     if (code) {
       const accessToken = await getAccessToken(clientId, code);
