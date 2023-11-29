@@ -1,7 +1,7 @@
 import { redirectToAuthCodeFlow } from "../../auth";
 
 interface IProps {
-  profile?: string;
+  profile?: string | null;
 }
 
 const Nav: React.FC<IProps> = ({ profile }) => {
